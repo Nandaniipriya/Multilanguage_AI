@@ -1,0 +1,12 @@
+[project]
+name = "multilanguage-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "googletrans>=4.0.2",
+    "langchain-google-genai>=2.1.2",
+    "langchain-groq>=0.3.2",
+    "streamlit>=1.44.1",
+]
